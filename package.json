@@ -1,0 +1,14 @@
+{
+  "name": "web-dev-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify index.js > app.js",
+    "watchify": "watchify index.js -o index.mini.js -v"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

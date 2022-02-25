@@ -1,0 +1,30 @@
+#web-dev-tools, .wdt{
+  display: none;
+  position: fixed;
+  z-index: 2147483000;
+  resize: both;
+  overflow: auto;
+  border: 0.1rem solid black;
+  padding: 0.2rem;
+  padding-bottom: 0.7rem;
+  width:31rem;
+  height:31rem;
+  box-shadow:0px 7px 11px 0px;
+  background-color: #fff;
+}
+
+#wdt-element-holder {
+  border: 0.3rem solid black;
+  min-height: 1rem;
+}
+
+.web-exp-tooltip{
+  position: fixed;
+  background-color: rgb(182, 180, 180);
+}
+
+.wdt-outlined {
+  outline-style: dashed;
+  outline-color: rgb(255, 78, 78);
+  outline-width:0.15rem;
+}
